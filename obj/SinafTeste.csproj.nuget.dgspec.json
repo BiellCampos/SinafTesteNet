@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\biell\\source\\repos\\SinafTeste\\SinafTeste.csproj": {}
+    "D:\\projeto\\SinafTesteNet\\SinafTeste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\biell\\source\\repos\\SinafTeste\\SinafTeste.csproj": {
+    "D:\\projeto\\SinafTesteNet\\SinafTeste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\biell\\source\\repos\\SinafTeste\\SinafTeste.csproj",
+        "projectUniqueName": "D:\\projeto\\SinafTesteNet\\SinafTeste.csproj",
         "projectName": "SinafTeste",
-        "projectPath": "C:\\Users\\biell\\source\\repos\\SinafTeste\\SinafTeste.csproj",
-        "packagesPath": "C:\\Users\\biell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\biell\\source\\repos\\SinafTeste\\obj\\",
+        "projectPath": "D:\\projeto\\SinafTesteNet\\SinafTeste.csproj",
+        "packagesPath": "C:\\Users\\rapha\\.nuget\\packages\\",
+        "outputPath": "D:\\projeto\\SinafTesteNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\biell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rapha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

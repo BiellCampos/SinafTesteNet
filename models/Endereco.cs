@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SinafTeste.models
+namespace SinafTeste.Models
 {
     public class Endereco
     {

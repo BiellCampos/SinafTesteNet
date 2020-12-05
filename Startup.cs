@@ -11,7 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using SinafTeste.models;
+using SinafTeste.Models;
+using SinafTeste.Context;
 
 namespace SinafTeste
 {
@@ -28,7 +29,7 @@ namespace SinafTeste
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration["ConexaoSqlite:SqliteConnectionString"];
-            services.AddDbContext<PropostaSeguroContexto>(options =>
+            services.AddDbContext<SinafTestContext>(options =>
                 options.UseSqlite(connection)
             );
             // Add framework services.
