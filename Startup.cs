@@ -32,8 +32,7 @@ namespace SinafTeste
             services.AddDbContext<SinafTestContext>(options =>
                 options.UseSqlite(connection)
             );
-            // Add framework services.
-            services.AddMvc();
+            // Add framework se
             services.AddControllers();
             services.AddSwaggerGen();
         }
@@ -54,6 +53,7 @@ namespace SinafTeste
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "SinafTeste");
             });
 
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
