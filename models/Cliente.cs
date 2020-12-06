@@ -8,7 +8,7 @@ namespace SinafTeste.Models
     public class Cliente
     {
         public int IdCliente { get; set; }
-        public List<string> Telefones { get; set; }
+        public List<Telefone> Telefones { get; set; }
         public List<Endereco> Enderecos { get; set; }
         public List<DependenteAgregado> DependenteAgregado { get; set; }
         public string Nome { get; set; }

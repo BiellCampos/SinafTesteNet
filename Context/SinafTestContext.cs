@@ -17,6 +17,7 @@ namespace SinafTeste.Context
         public DbSet<DependenteAgregado> DependenteAgregado { get; set; }
         public DbSet<Endereco> Endereco { get; set; }
         public DbSet<PropostaSeguro> PropostaSeguro { get; set; }
+        public DbSet<Telefone> Telefone { get; set; }
 
 
 
@@ -24,9 +25,11 @@ namespace SinafTeste.Context
         {
             builder.Entity<Cliente>().HasKey(m => m.IdCliente);
             builder.Entity<Cobertura>().HasKey(m => m.IdCobertura);
+            builder.Entity<CoberturasCliente>().HasKey(m => m.IdCoberturascliente);
             builder.Entity<DependenteAgregado>().HasKey(m => m.IdDependenteAgregado);
             builder.Entity<Endereco>().HasKey(m => m.IdEndereco);
             builder.Entity<PropostaSeguro>().HasKey(m => m.IdPropostaSeguro);
+            builder.Entity<Telefone>().HasKey(m => m.IdTelefone);
             base.OnModelCreating(builder);
         }
     }

@@ -7,6 +7,7 @@ namespace SinafTeste.Models
 {
     public class CoberturasCliente
     {
+
         public int IdCoberturascliente { get; set; }
         public int IdCliente { get; set; }
         public Cobertura Cobertura { get; set; }
